@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<br>
+<br>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkAsimov.com / Provider</title>
+    <link rel="stylesheet" href="unit.css">
+    <script src="unit.js"></script>
+</head>
+
+<body class="ta">
+        
+    <header>
+        <h1> ThinkAsimov.com</h1>
+        <p><u>ProjectLOG pro opt. výstavby TA.COM</u></p>
+    </header>
+
+    <br>
+
+    <main>
+
+        <section class="project">
+
+            <div id="project2" class="project-details">
+
+                <div class="task">
+                    
+                    <h2 onclick="toggleDetails('thinkasimov-f1')">Fáze_1: Dokončení projektu ve WP</h2>
+                    <div id="thinkasimov-f1" class="phase-details">
+
+                        <ul>
+
+                            <li onclick="toggleDetails('thinkasimov-step1')"><h3>Vytvoření kurzu a struktury obsahu</h3>
+                                <ul id="thinkasimov-step1" class="step-details">
+                                    <li><h4 data-id="tnote1" onclick="showForm('tnote1')">Návrh témat a struktury kurzů</h4></li>
+                                    <li><h4 data-id="tnote2" onclick="showForm('tnote2')">Vytvoření základních lekcí a testů</h4></li>
+                                    <li><h4 data-id="tnote3" onclick="showForm('tnote3')">Vyhledání referencí na odb. články</h4></li>
+                                    <li><h4 data-id="tnote4" onclick="showForm('tnote4')">Příprava materiálů pro úvodní lekce</h4></li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('thinkasimov-step2')"><h3>Interaktivní AI experimenty</h3>
+                                <ul id="thinkasimov-step2" class="step-details">
+                                    <li><h4 data-id="tnote5" onclick="showForm('tnote5')">Vývoj simulací jednoduchých AI mod.</h4></li>
+                                    <li><h4 data-id="tnote6" onclick="showForm('tnote6')">Implementace interaktivních prvků</h4></li>
+                                    <li><h4 data-id="tnote7" onclick="showForm('tnote7')">Nastavení uživatelského rozhraní</h4></li>
+                                    <li><h4 data-id="tnote8" onclick="showForm('tnote8')">Testování na základě zpětné vazby</h4></li>
+                                </ul>
+
+                            </li>
+                            <li onclick="toggleDetails('thinkasimov-step3')"><h3>Diskuze o etice AI</h3>
+                                <ul id="thinkasimov-step3" class="step-details">
+                                    <li> <h4 data-id="tnote9" onclick="showForm('tnote9')">Vytvoření diskuzního fóra</h4></li>
+                                    <li><h4 data-id="tnote10" onclick="showForm('tnote10')">Přidání sekcí pro různá témata</h4></li>
+                                    <li><h4 data-id="tnote11" onclick="showForm('tnote11')">Nastavení pravidel fóra</h4></li>
+                                    <li><h4 data-id="tnote12" onclick="showForm('tnote12')">Moderace obsahu</h4></li>
+                                </ul>
+                            </li>
+                            
+                            <li onclick="toggleDetails('thinkasimov-step4')"><h3>První verze na živém prostředí</h3>
+                                <ul id="thinkasimov-step4" class="step-details">
+                                    <li> <h4 data-id="tnote13" onclick="showForm('tnote13')">Kontrola všech funkcí</h4></li>
+                                    <li><h4 data-id="tnote14" onclick="showForm('tnote14')">Testování UX s cílovým publikem</h4></li>
+                                    <li><h4 data-id="tnote15" onclick="showForm('tnote15')">Optimal. rychlosti a přehlednosti</h4></li>
+                                    <li><h4 data-id="tnote16" onclick="showForm('tnote16')">Získání zpětné vazby od uživatelů</h4></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="task">
+                    <h2 onclick="toggleDetails('thinkasimov-f2')">Fáze_2: Migrace na Docker / Git</h2>
+                    <div id="thinkasimov-f2" class="phase-details">
+
+                        <ul>
+
+                            <li onclick="toggleDetails('thinkasimov-step5')"><h3>Export obsahu a příprava HTML struktury</h3>
+                                <ul id="thinkasimov-step5" class="step-details">
+                                    <li><h4 data-id="tnote17" onclick="showForm('tnote17')">Export databáze a příspěvků z WP</h4></li>
+                                    <li><h4 data-id="tnote18" onclick="showForm('tnote18')">Přípr. HTML šablon pro jedn. str.</h4></li>
+                                    <li><h4 data-id="tnote19" onclick="showForm('tnote19')">Úprava CSS pro přizpůsob. vzhledu</h4></li>
+                                    <li><h4 data-id="tnote20" onclick="showForm('tnote20')">Organizace souborové struktury</h4></li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('thinkasimov-step6')"><h3>Vytvoření Docker kontejnerů</h3>
+                                <ul id="thinkasimov-step6" class="step-details">
+                                    <li><h4 data-id="tnote21" onclick="showForm('tnote21')">Instalace Docker na lok. prostředí</h4></li>
+                                    <li><h4 data-id="tnote22" onclick="showForm('tnote22')">Vytv. Dockerfile pro zákl. konf.</h4></li>
+                                    <li><h4 data-id="tnote23" onclick="showForm('tnote23')">Nast. docker-compose - více kont.</h4></li>
+                                    <li><h4 data-id="tnote24" onclick="showForm('tnote24')">Testování lok. prostředí v Dockeru</h4></li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('thinkasimov-step7')"><h3>Verzování s Git</h3>
+                                <ul id="thinkasimov-step7" class="step-details">
+                                    <li><h4 data-id="tnote25" onclick="showForm('tnote25')">Inicializace Git repozitáře</h4></li>
+                                    <li><h4 data-id="tnote26" onclick="showForm('tnote26')">Vytvoření prvního commitu</h4></li>
+                                    <li><h4 data-id="tnote27" onclick="showForm('tnote27')">Nastavení hlavní větve</h4></li>
+                                    <li><h4 data-id="tnote28" onclick="showForm('tnote28')">Pravidelný push změn na GitHub</h4></li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('thinkasimov-step8')"><h3>Finalizace projektu</h3>
+                                <ul id="thinkasimov-step8" class="step-details">
+                                    <li><h4 data-id="tnote29" onclick="showForm('tnote29')">Testování všech funkcí a odkazů</h4></li>
+                                    <li><h4 data-id="tnote30" onclick="showForm('tnote30')">Optim. kódu pro produkční prostř.</h4></li>
+                                    <li><h4 data-id="tnote31" onclick="showForm('tnote31')">Zajištění bezpečnost. opatření</h4></li>
+                                    <li><h4 data-id="tnote32" onclick="showForm('tnote32')">Příprava na nasazení do živ. prostř.</h4></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <br>
+
+    <footer>
+        <p><a href="https://thinkasimov.com/" target="_blank" class="button-link">C WEB</a></p>
+        <p>ThinkAsimov.com<sup>&copy</sup></p>
+    </footer> 
+
+    <div id="noteForm" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeForm()">&times;</span>
+            <h4 id="note-title">Poznámky</h4> <!-- Dynamický titulek -->
+
+            <form>
+                <label for="best-practices">Best practices</label>
+                <textarea id="best-practices" rows="3" cols="50"></textarea>
+    
+                <label for="task-steps">Dílčí úkoly</label> 
+                <textarea id="task-steps" rows="6" cols="50"></textarea>
+    
+                <label for="additional-notes">Další poznámky:</label>
+                <textarea id="additional-notes" rows="3" cols="50"></textarea>
+    
+                <button type="button" onclick="saveNote()">Uložit poznámky</button>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

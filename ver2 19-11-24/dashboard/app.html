@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Navigator / Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+    <h1 class="header-guide">Projects Navigator / Dashboard</h1>
+    </header>
+
+    <main>
+            <!-- Projekt 1: Bot Central Hub -->
+           <section class="project">
+
+            <h2 onclick="toggleDetails('project1')">Bot Central Hub</h2>
+            <div id="project1" class="project-details">
+                <div class="task">
+                    <h3 onclick="toggleDetails('botcentralhub-f1')">Fáze 1: Dokončení na WordPressu</h3>
+
+                    <div id="botcentralhub-f1" class="phase-details">
+
+                        <ul>
+                            <li onclick="toggleDetails('botcentralhub-step1')">Návrh základní struktury obsahu
+                                <ul id="botcentralhub-step1" class="step-details">
+                                    <li>Analýza cílového publika</li>
+                                    <li>Strukturování hlavních sekcí webu</li>
+                                    <li>Výběr vhodné šablony na WordPressu</li>
+                                    <li>Příprava obsahu pro jednotlivé stránky</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('botcentralhub-step2')">Implementace hlavních funkcí
+                                <ul id="botcentralhub-step2" class="step-details">
+                                    <li>Přidání diskuzního fóra</li>
+                                    <li>Nastavení blogu pro novinky a články</li>
+                                    <li>Vytvoření kontaktního formuláře</li>
+                                    <li>Integrace se sociálními sítěmi</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('botcentralhub-step3')">Správa sociálních sítí
+                                <ul id="botcentralhub-step3" class="step-details">
+                                    <li>Naplánování příspěvků na sociálních sítích</li>
+                                    <li>Vytvoření vizuálního obsahu</li>
+                                    <li>Zapojení automatizačních nástrojů</li>
+                                    <li>Pravidelné monitorování engagementu</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('botcentralhub-step4')">První verze na živém prostředí
+                                <ul id="botcentralhub-step4" class="step-details">
+                                    <li>Kontrola všech odkazů</li>
+                                    <li>Optimalizace pro mobilní zařízení</li>
+                                    <li>Testování rychlosti načítání stránky</li>
+                                    <li>Úprava obsahu podle prvních ohlasů</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="task">
+                    <h3 onclick="toggleDetails('botcentralhub-f2')">Fáze 2: Migrace na Docker / Git</h3>
+
+                    <div id="botcentralhub-f2" class="phase-details">
+
+                        <ul>
+                            <li onclick="toggleDetails('botcentralhub-step5')">Export obsahu a příprava HTML struktury
+                                <ul id="botcentralhub-step5" class="step-details">
+                                    <li>Export databáze a příspěvků z WordPressu</li>
+                                    <li>Příprava HTML šablon pro jednotlivé stránky</li>
+                                    <li>Úprava CSS pro přizpůsobení vzhledu</li>
+                                    <li>Organizace souborové struktury</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('botcentralhub-step6')">Vytvoření Docker kontejnerů
+                                <ul id="botcentralhub-step6" class="step-details">
+                                    <li>Instalace Docker na lokálním prostředí</li>
+                                    <li>Vytvoření Dockerfile pro základní konfiguraci</li>
+                                    <li>Nastavení docker-compose pro více kontejnerů</li>
+                                    <li>Testování lokálního prostředí v Dockeru</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('botcentralhub-step7')">Verzování s Git
+                                <ul id="botcentralhub-step7" class="step-details">
+                                    <li>Inicializace Git repozitáře</li>
+                                    <li>Vytvoření prvního commitu</li>
+                                    <li>Nastavení hlavní větve</li>
+                                    <li>Pravidelný push změn na GitHub</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('botcentralhub-step8')">Finalizace projektu
+                                <ul id="botcentralhub-step8" class="step-details">
+                                    <li>Testování všech funkcí a odkazů</li>
+                                    <li>Optimalizace kódu pro produkční prostředí</li>
+                                    <li>Zajištění bezpečnostních opatření</li>
+                                    <li>Příprava na nasazení do živého prostředí</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Projekt 2: Think Asimov -->
+        <section class="project">
+
+            <h2 onclick="toggleDetails('project2')">Think Asimov</h2>
+            <div id="project2" class="project-details">
+
+                <div class="task">
+                    <h3 onclick="toggleDetails('thinkasimov-f1')">Fáze 1: Dokončení na WordPressu</h3>
+
+                    <div id="thinkasimov-f1" class="phase-details">
+
+                        <ul>
+
+                            <li onclick="toggleDetails('thinkasimov-step1')">Vytvoření kurzu a struktury obsahu
+                                <ul id="thinkasimov-step1" class="step-details">
+                                    <li>Návrh témat a struktury kurzů</li>
+                                    <li>Vytvoření základních lekcí a testů</li>
+                                    <li>Vyhledání referencí na odborné články</li>
+                                    <li>Příprava materiálů pro úvodní lekce</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('thinkasimov-step2')">Interaktivní AI experimenty
+                                <ul id="thinkasimov-step2" class="step-details">
+                                    <li>Vývoj simulací jednoduchých AI modelů</li>
+                                    <li>Implementace interaktivních prvků</li>
+                                    <li>Nastavení uživatelského rozhraní</li>
+                                    <li>Testování na základě zpětné vazby</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('thinkasimov-step3')">Diskuze o etice AI
+                                <ul id="thinkasimov-step3" class="step-details">
+                                    <li>Vytvoření diskuzního fóra</li>
+                                    <li>Přidání sekcí pro různá témata</li>
+                                    <li>Nastavení pravidel fóra</li>
+                                    <li>Moderace obsahu</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('thinkasimov-step4')">První verze na živém prostředí
+                                <ul id="thinkasimov-step4" class="step-details">
+                                    <li>Kontrola všech funkcí</li>
+                                    <li>Testování UX s cílovým publikem</li>
+                                    <li>Optimalizace rychlosti a přehlednosti</li>
+                                    <li>Získání zpětné vazby od uživatelů</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="task">
+                    <h3 onclick="toggleDetails('thinkasimov-f2')">Fáze 2: Migrace na Docker / Git</h3>
+
+                    <div id="thinkasimov-f2" class="phase-details">
+
+                        <ul>
+                            <li onclick="toggleDetails('thinkasimov-step5')">Export obsahu a příprava HTML struktury
+                                <ul id="thinkasimov-step5" class="step-details">
+                                    <li>Export databáze a příspěvků z WordPressu</li>
+                                    <li>Příprava HTML šablon pro jednotlivé stránky</li>
+                                    <li>Úprava CSS pro přizpůsobení vzhledu</li>
+                                    <li>Organizace souborové struktury</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('thinkasimov-step6')">Vytvoření Docker kontejnerů
+                                <ul id="thinkasimov-step6" class="step-details">
+                                    <li>Instalace Docker na lokálním prostředí</li>
+                                    <li>Vytvoření Dockerfile pro základní konfiguraci</li>
+                                    <li>Nastavení docker-compose pro více kontejnerů</li>
+                                    <li>Testování lokálního prostředí v Dockeru</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('thinkasimov-step7')">Verzování s Git
+                                <ul id="thinkasimov-step7" class="step-details">
+                                    <li>Inicializace Git repozitáře</li>
+                                    <li>Vytvoření prvního commitu</li>
+                                    <li>Nastavení hlavní větve</li>
+                                    <li>Pravidelný push změn na GitHub</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('thinkasimov-step8')">Finalizace projektu
+                                <ul id="thinkasimov-step8" class="step-details">
+                                    <li>Testování všech funkcí a odkazů</li>
+                                    <li>Optimalizace kódu pro produkční prostředí</li>
+                                    <li>Zajištění bezpečnostních opatření</li>
+                                    <li>Příprava na nasazení do živého prostředí</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Projekt 3: Robot Yellow Pages -->
+        <section class="project">
+            <h2 onclick="toggleDetails('project3')">Robot Yellow Pages</h2>
+            <div id="project3" class="project-details">
+
+                <div class="task">
+                    <h3 onclick="toggleDetails('robotyellowpages-f1')">Fáze 1: Dokončení na WordPressu</h3>
+
+                    <div id="robotyellowpages-f1" class="phase-details">
+
+                        <ul>
+                            <li onclick="toggleDetails('robotyellowpages-step1')">Vytvoření katalogu firem a profilů
+                                <ul id="robotyellowpages-step1" class="step-details">
+                                    <li>Vytvoření kategorií firem a služeb</li>
+                                    <li>Šablony profilů s kontaktními informacemi</li>
+                                    <li>Nastavení SEO pro jednotlivé profily</li>
+                                    <li>Vytvoření kontaktního formuláře</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('robotyellowpages-step2')">Recenze a hodnocení
+                                <ul id="robotyellowpages-step2" class="step-details">
+                                    <li>Nastavení systému pro přidávání recenzí</li>
+                                    <li>Implementace funkce hodnocení hvězdičkami</li>
+                                    <li>Moderace obsahu recenzí</li>
+                                    <li>Zobrazení top hodnocení na hlavní stránce</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('robotyellowpages-step3')">Automatizace obsahu pro sociální sítě
+                                <ul id="robotyellowpages-step3" class="step-details">
+                                    <li>Napojení na platformy pro automatizaci</li>
+                                    <li>Vytvoření šablon pro příspěvky</li>
+                                    <li>Plánování pravidelného sdílení obsahu</li>
+                                    <li>Analýza dosahu a engagementu</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('robotyellowpages-step4')">První verze na živém prostředí
+                                <ul id="robotyellowpages-step4" class="step-details">
+                                    <li>Kontrola a optimalizace funkcí</li>
+                                    <li>Testování rychlosti načítání</li>
+                                    <li>Optimalizace pro mobilní zařízení</li>
+                                    <li>Analýza a úprava podle zpětné vazby</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="task">
+                    <h3 onclick="toggleDetails('robotyellowpages-f2')">Fáze 2: Migrace na Docker / Git</h3>
+
+                    <div id="robotyellowpages-f2" class="phase-details">
+
+                        <ul>
+                            <li onclick="toggleDetails('robotyellowpages-step5')">Export obsahu a příprava HTML struktury
+                                <ul id="robotyellowpages-step5" class="step-details">
+                                    <li>Export databáze a příspěvků z WordPressu</li>
+                                    <li>Příprava HTML šablon pro jednotlivé stránky</li>
+                                    <li>Úprava CSS pro přizpůsobení vzhledu</li>
+                                    <li>Organizace souborové struktury</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('robotyellowpages-step6')">Vytvoření Docker kontejnerů
+                                <ul id="robotyellowpages-step6" class="step-details">
+                                    <li>Instalace Docker na lokálním prostředí</li>
+                                    <li>Vytvoření Dockerfile pro základní konfiguraci</li>
+                                    <li>Nastavení docker-compose pro více kontejnerů</li>
+                                    <li>Testování lokálního prostředí v Dockeru</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('robotyellowpages-step7')">Verzování s Git
+                                <ul id="robotyellowpages-step7" class="step-details">
+                                    <li>Inicializace Git repozitáře</li>
+                                    <li>Vytvoření prvního commitu</li>
+                                    <li>Nastavení hlavní větve</li>
+                                    <li>Pravidelný push změn na GitHub</li>
+                                </ul>
+                            </li>
+
+                            <li onclick="toggleDetails('robotyellowpages-step8')">Finalizace projektu
+                                <ul id="robotyellowpages-step8" class="step-details">
+                                    <li>Testování všech funkcí a odkazů</li>
+                                    <li>Optimalizace kódu pro produkční prostředí</li>
+                                    <li>Zajištění bezpečnostních opatření</li>
+                                    <li>Příprava na nasazení do živého prostředí</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Průvodce Projekty</p>
+    </footer>
+
+</body>
+
+</html>
+
