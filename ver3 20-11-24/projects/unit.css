@@ -112,7 +112,7 @@ footer p {
 }
 
 textarea {
-    width: 100%;
+    width: 96%;
     margin-top: 5px;
     padding: 8px;
     background-color: var(--background-color);
@@ -132,4 +132,25 @@ button {
     font-weight: bold;
     margin-top: 15px;
     width: 100%;
+}
+
+/* Responzivní úpravy pro menší obrazovky */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    header, main, footer {
+        width: 90%; /* Zmenší šířku hlavních bloků */
+    }
+
+    .modal-content {
+        width: 100%;
+        max-width: 400px; /* Přizpůsobí modální okno menším obrazovkám */
+    }
+
+    textarea {
+        font-size: 12px; /* Menší písmo pro menší zařízení */
+    }
 }
