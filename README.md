@@ -161,4 +161,4 @@ This project is licensed under the MIT License.
 ---
 
 ### **Acknowledgments**
-Special thanks to Praha Coding School esp. Mr. J. Novotný.
+Special thanks to Praha Coding School esp. Mr.Jan N.
